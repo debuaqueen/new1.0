@@ -1,0 +1,7 @@
+Test log
+[2025-11-12 07:34:07] USER: 1234@gmail.com | ACTION: ADD | ID: 19931557 | NAME: Tim LUI | GPA: 3.5 | TYPE: Undergraduate
+[2025-11-12 07:58:25] USER: 1234@gmail.com | ACTION: DELETE | ID: 12345 | NAME: David | GPA: 4 | TYPE: Undergraduate
+[2025-11-12 07:58:27] USER: 1234@gmail.com | ACTION: DELETE | ID: 114514 | NAME: Tom Eric | GPA: 3 | TYPE: Undergraduate
+[2025-11-12 07:58:28] USER: 1234@gmail.com | ACTION: DELETE | ID: 19931557 | NAME: Tim LUI | GPA: 3.5 | TYPE: Undergraduate
+[2025-11-12 07:58:29] USER: 1234@gmail.com | ACTION: DELETE | ID: 43961234 | NAME: Peter Li | GPA: 2.5 | TYPE: Undergraduate
+[2025-11-12 07:59:30] USER: 1234@gmail.com | ACTION: ADD | ID: 12345 | NAME: peter | GPA: 3.1 | TYPE: Undergraduate
