@@ -1,4 +1,4 @@
-require('./utils/logger'); // ← ADD THIS
+require('./utils/logger'); // 
 require('dotenv').config();
 const express = require('express');
 const session = require('cookie-session');
@@ -18,6 +18,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 app.use(methodOverride('_method'));
+
+// API Routes (No Auth)
+app.use('/api', require('./routes/api'));
 
 app.use(session({
   name: 'session',

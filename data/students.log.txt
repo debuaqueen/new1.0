@@ -5,3 +5,5 @@ Test log
 [2025-11-12 07:58:28] USER: 1234@gmail.com | ACTION: DELETE | ID: 19931557 | NAME: Tim LUI | GPA: 3.5 | TYPE: Undergraduate
 [2025-11-12 07:58:29] USER: 1234@gmail.com | ACTION: DELETE | ID: 43961234 | NAME: Peter Li | GPA: 2.5 | TYPE: Undergraduate
 [2025-11-12 07:59:30] USER: 1234@gmail.com | ACTION: ADD | ID: 12345 | NAME: peter | GPA: 3.1 | TYPE: Undergraduate
+[2025-11-13 04:11:41] USER: abc@example.com | ACTION: ADD | ID: 114 | NAME: Stella | GPA: 4 | TYPE: Undergraduate
+[2025-11-13 04:12:19] USER: abc@example.com | ACTION: ADD | ID: 11234 | NAME: Peter | GPA: 1 | TYPE: Graduate
