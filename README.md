@@ -34,3 +34,6 @@ sudo systemctl start mongod && \
 sudo systemctl enable mongod && \
 cd ~/new1.0 && \
 npm run dev
+
+
+./setup.sh
