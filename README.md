@@ -9,7 +9,9 @@ PORT=3000
 
 
 MONGO_URI=mongodb://127.0.0.1:27017/studentdb
+
 SESSION_SECRET=your_strong_secret_key_here_12345
+
 PORT=3000
 
 
