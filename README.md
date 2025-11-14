@@ -37,3 +37,20 @@ npm run dev
 
 
 ./setup.sh
+
+
+# 1. Install mongosh (direct)
+curl -L https://github.com/mongodb-js/mongosh/releases/latest/download/mongosh-2.5.9-linux-x64.tgz | tar -xz && \
+sudo mv mongosh-2.5.9-linux-x64/bin/mongosh /usr/local/bin/ && \
+sudo chmod +x /usr/local/bin/mongosh && \
+rm -rf mongosh-2.5.9-linux-x64
+
+# 2. Update .env (replace YOUR_PASSWORD is 123)
+echo "MONGO_URI=mongodb+srv://wongyanho:123@cluster0.603b9e0.mongodb.net/studentmanager?retryWrites=true&w=majority
+PORT=3000" > .env
+
+# 3. Test connection
+mongosh "mongodb+srv://wongyanho:YOUR_PASSWORD@cluster0.603b9e0.mongodb.net/studentmanager"
+
+# 4. Run app
+npm run dev
